@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM LOGIN</title>
+    <link rel="stylesheet" href="pweb.css">
+
+</head>
+<body>
+    <p>SILAHKAN LOGIN</p>
+    <div class="container">
+        <form id="data" name="identitas" method="post">
+            <label for="username">Username</label>
+            <input name="username" type="text" placeholder=" Username">
+            <label for="password">Password</label>
+            <input name="password" type="password" placeholder=" Password">
+            <center>
+                <button data-toggle="modal">LOGIN</button>
+                <div class="invalid">Invalid username or password</div>
+            </center>
+        </form>
+    </div>
+    <br\>
+    <div class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    SUCCESS
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="pweb.js"></script>
+</body>
+</html>
